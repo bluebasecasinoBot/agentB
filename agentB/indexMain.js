@@ -184,10 +184,12 @@ window.addEventListener("DOMContentLoaded" , e =>{
         manage_mediaQuery(window.innerWidth);
 
         setBlub();
-
-        __p(['loaderScreen' , 'removeLoader'] , () =>{})()
     }, 3000);
     
+})
+
+window.addEventListener('load' , e =>{
+    __p(['loaderScreen' , 'removeLoader'] , () =>{})();
 })
 
 window.addEventListener('resize' , e =>{
