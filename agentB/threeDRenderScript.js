@@ -53,7 +53,7 @@ export function MainRenderInit()
     // floorMesh();
     // batmanFlat();
 
-    for(let i = 0; i < 1000; i++)
+    for(let i = 0; i < 400; i++)
     {
         addStar();
     }
